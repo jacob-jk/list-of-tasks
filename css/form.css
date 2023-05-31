@@ -17,6 +17,10 @@
     margin: 10px 10px 10px 20px;
     height: 40px;
     color: white;
-    background-color: teal;
+    background-color: #008080;
     border: none;
+}
+
+.form__button:focus {
+    outline: 1px solid #000000;
 }

@@ -3,3 +3,7 @@
     padding: 10px;
     background-color: #ffffff;
 }
+
+.list__Item {
+    list-style: none;
+}
