@@ -1,4 +1,4 @@
-# list-of-tasks
+# List of tasks
 
 ![tasks](https://cdn.dribbble.com/users/4241563/screenshots/11874468/media/7796309c77cf752615a3f9062e6a3b3d.gif)
 
