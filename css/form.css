@@ -6,15 +6,23 @@
     grid-template-columns: 4fr 1fr;
 }
 
+@media (max-width: 767px) {
+    .form {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+    }
+}
+
 
 .form__input {
-    margin: 10px 0 10px 10px;
+    margin: 10px;
     border: 2px solid #e2e1e1;
     padding: 10px;
 }
 
 .form__button {
-    margin: 10px 10px 10px 20px;
+    margin: 10px;
     height: 40px;
     color: white;
     background-color: #008080;
