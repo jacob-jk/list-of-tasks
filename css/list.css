@@ -1,11 +1,11 @@
 .list {
     margin-bottom: 10px;
-    padding: 10px;
+    padding: 20px;
     background-color: #ffffff;
     list-style: none;
 }
 
-.list__Item {
+.list__item {
     display: grid;
     grid-template-columns: auto 1fr auto;
     grid-gap: 10px;
