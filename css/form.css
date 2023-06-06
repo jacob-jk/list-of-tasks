@@ -27,6 +27,7 @@
     color: white;
     background-color: #008080;
     border: none;
+    cursor: pointer;
 }
 
 .form__button:focus {
