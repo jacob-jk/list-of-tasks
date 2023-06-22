@@ -6,4 +6,40 @@
     border-bottom: 2px solid #e2e1e1;
     padding: 20px;
     margin: 0;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    align-items: center
+}
+
+@media (max-width: 767px) {
+    .section__header {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+}
+
+.section__headerOfTaskList {
+    margin: 0;
+}
+
+.section__buttons {
+    margin: 10px 0 10px 10px;
+    color: #008080;
+    background-color: #ffffff;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+}
+
+.section__buttons:hover {
+    color: #00b3b3;
+}
+
+.section__buttons:disabled {
+    color: #9f9d9d;
 }
